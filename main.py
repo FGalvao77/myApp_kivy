@@ -7,7 +7,7 @@ kivy.require('1.9.0')
 class MyFirstApplication(App):
 
     def build(self):
-        return Label(text='This is my first App!!')
+        return Label(text='This is my first App in Kivy!!')
 
 if __name__ == '__main__':
     MyFirstApplication().run()
